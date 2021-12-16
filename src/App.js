@@ -1,11 +1,18 @@
 import "./index.css";
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import SignInPage from "./pages/SignInPage";
 
 function App() {
   return (
-    <div>
-      <h2 className="text-red-600 text-3xl">Portfolio project...</h2>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {/* <Route path="/" component={Home} exact /> */}
+        <Route path="/" element={<Home />} exact />
+        <Route path="/signin" element={<SignInPage />} exact />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
