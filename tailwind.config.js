@@ -8,7 +8,7 @@ module.exports = {
         encodeSans: ["Encode Sans Expanded", "sans-serif"],
       },
       screens: {
-        sm: { min: "410px", max: "767px" },
+        sm: { min: "279px", max: "767px" },
         md: { min: "768px", max: "960px" },
         lg: { min: "960px", max: "1279px" },
         xl: { min: "1280px", max: "1400px" },
