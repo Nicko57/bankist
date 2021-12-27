@@ -9,10 +9,10 @@
 
 @layer components {
   .navBg {
-    @apply sticky z-50 top-0 font-encodeSans bg-black h-20 md:transition ease-in;
+    @apply sticky z-50 top-0 font-encodeSans bg-black h-20 transition ease-in duration-500;
   }
   .navBg-trasparent {
-    @apply sticky  top-0  font-encodeSans bg-transparent h-20 md:transition ease-in;
+    @apply sticky  top-0  font-encodeSans bg-transparent h-20 ;
   }
   .navBar-Icon {
     @apply lg:hidden xl:hidden absolute top-0 right-0 transform -translate-x-full translate-y-2/3 text-3xl cursor-pointer text-white;
